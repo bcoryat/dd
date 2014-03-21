@@ -37,7 +37,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.html"><img src="<?php bloginfo('template_url')?>/img/logo.png" alt="doggedly devoted logo" /></a>
+						<a class="navbar-brand" href="/"><img src="<?php bloginfo('template_url')?>/img/logo.png" alt="doggedly devoted logo" /></a>
 					</div>
 
 					<div class="collapse navbar-collapse">
@@ -55,7 +55,7 @@
 										<a href="/team">The Team</a>
 									</li>
 									<li>
-										<a href="Employment">Employment</a>
+										<a href="employment">Employment</a>
 									</li>
 								</ul>
 							</li>
@@ -64,21 +64,21 @@
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="/philosophy">Day Care</a>
+										<a href="/daycare">Day Care</a>
 									</li>
 									<li>
-										<a href="/team">Training</a>
+										<a href="/training">Training</a>
 									</li>
 									<li>
 										<a href="/boarding">Boarding</a>
 									</li>
 									<li>
-										<a href="Employment">Prices</a>
+										<a href="/prices">Prices</a>
 									</li>
 								</ul>
 							</li>
 							<li>
-								<a href="/puppies">Puppies</a>
+								<a href="/puppies">For Puppies</a>
 							</li>
 							<li>
 								<a href="/testimonials">Testimonials</a>

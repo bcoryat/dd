@@ -23,15 +23,16 @@
 
 		
 
-		<!-- begin Anouncements -->
+		<!-- begin Announcements -->
 		<article class="announcements">
 			<div class="container">	
 				<div class="row">
-					<div class="col-xs-12"><h2 class="header">Anouncements</h2></div>
+					<div class="col-xs-12"><h2 class="header">Announcements</h2></div>
 				</div>
 				
 
 				<div class="row">
+				
 					<div class="col-md-10">
 						<ul>
 							<li>
@@ -44,9 +45,11 @@
 						
 						
 					</div>
-					<div class="col-md-2">
-						<img src="<?php bloginfo('template_url')?>/img/announcements.jpg" alt="Announcements" class="img-rounded thumb">
+					
+						<div class="col-md-2">
+						<img src="<?php bloginfo('template_url')?>/img/announcements.jpg" alt="Announcements" class="img-responsive img-rounded thumb">
 					</div>
+					
 				</div>
 				
 
@@ -59,21 +62,37 @@
        <!-- begin Dog Blog  -->
 		<article class="dogBlog">
 			<div class="container">
+				
 				<div class="row">
 					<div class="col-xs-12"><h2 class="header">From the Dog Blog</h2></div>
 				</div>
+				
+				<?php
+                      $args = array( 'posts_per_page' => 1, 'post_type' => 'post' , 'offset' => 0);
+                      $myposts = get_posts( $args );
+                      foreach ( $myposts as $post ) : setup_postdata( $post ); 
+                ?>
+                
+	
+							
 
 				<div class="row">
-					<div class="col-md-12">
-						<div class="col-md-2"><img src="<?php bloginfo('template_url')?>/img/featured.jpg" alt="featured" class="img-rounded thumb"></div>
-					    <div class="col-md-10">
-						<h3>Moonit Says...</h5>
-						<h5>Posted 17 March 2014 <i class="icon-dot"></i> By Megan</h4>
-						<div class="foot"><p>Lorem ipsum dolor sit amet, ius mutat ubique delicatissimi ex, augue possim comprehensam nam ut. Has et nominati interesset, choro tempor eu eum. Dicit consetetur concludaturque ea nec, inani volumus...</p>
-						<a id="contactus" class="btn btn-default btn-xs"  role="button">Read More</a>
-					</div>
+				
+						
+					    
+					    <div class="col-xs-12">
+					    	
+					    	  
+						       <h3><a href="<?php the_permalink(); ?>"><?php the_title();?></a></h3>
+						       <p><?php the_date(); ?><i class="icon-dot"></i>  by  <?php the_author(); ?>  </p>
+						       <p><?php the_post_thumbnail(' thumbnail pull-left'); ?>
+						        <?php the_excerpt(); ?>
+						       <a href="<?php the_permalink();?>" class="btn btn-default">Read More</a>
+						
+				        </div>
 						
 					</div>
+					<?php endforeach;?> 
 					
 				 </div>
 

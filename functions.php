@@ -1,5 +1,7 @@
 <?php
 
+add_editor_style();
+
 function jquery_cdn() {
 	if (!is_admin()) {
 		wp_deregister_script('jquery');
@@ -36,5 +38,46 @@ function dd_common_styles() {
 
 add_action('wp_enqueue_scripts', 'dd_common_styles');
 add_action('wp_enqueue_scripts', 'dd_common_scripts');
+
+if ( ! function_exists( 'my_pagination' ) ) :
+	function my_pagination() {
+		global $wp_query;
+
+		$big = 999999999; // need an unlikely integer
+		
+		echo paginate_links( array(
+			'base' => str_replace( $big, '%#%', esc_url( get_pagenum_link( $big ) ) ),
+			'format' => '?paged=%#%',
+			'current' => max( 1, get_query_var('paged') ),
+			'total' => $wp_query->max_num_pages
+		) );
+	}
+endif;
+
+add_theme_support( 'post-thumbnails' );
+
+function new_excerpt_more( $more ) {
+	return '...';
+}
+add_filter('excerpt_more', 'new_excerpt_more');
+
+function dd_widgets_init() {
+
+
+
+	register_sidebar(array(
+	'name' => __( 'Home  Sidebar' ),
+	'id' => 'home-sidebar',
+	'description' => __( 'Widgets in this area will be shown on the homepage ' ),
+	'before_title' => '<h4>',
+	'after_title' => '</h4>',
+	'before_widget' => ' ',
+	'after_widget'  => ' ',
+	));
+
+
+
+}
+add_action( 'widgets_init', 'dd_widgets_init' );
 
 ?>
