@@ -565,6 +565,10 @@ header .navbar .navbar-contact {
 }
 
 
+.announcements li {
+	font-size: 1.0em;
+}
+
 
 /************************************ Team *********************************/
 #team .thumbnail {
