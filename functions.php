@@ -67,12 +67,12 @@ function dd_widgets_init() {
 
 	register_sidebar(array(
 	'name' => __( 'Home  Sidebar' ),
-	'id' => 'home-sidebar',
+	'id' => 'home',
 	'description' => __( 'Widgets in this area will be shown on the homepage ' ),
-	'before_title' => '<h4>',
-	'after_title' => '</h4>',
-	'before_widget' => ' ',
-	'after_widget'  => ' ',
+	'before_title' => '<h3>',
+	'after_title' => '</h3>',
+	'before_widget' => '<li>',
+	'after_widget'  => '</li>',
 	));
 
 

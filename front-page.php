@@ -33,20 +33,13 @@
 
 				<div class="row">
 				
-					<div class="col-md-10">
-						<ul>
-							<li>
-								<p>Mel ad dictas ornatus democritum, ad augue nullam accumsan pro. Ridens consetetur et vel, ea esse legimus posidonium vis, pri ut fabellas interpretaris.</p>
-							</li>
-							<li>
-								<p>Lorem ipsum dolor sit amet, nam simul platonem ex, cu mea vidisse facilis prodesset. At vidit perfecto voluptatibus mei. No nullam indoctum est,</p>
-							</li>
-						</ul>
-						
+					<div class="col-md-9">
+						<?php dynamic_sidebar('home'); ?>
+
 						
 					</div>
 					
-						<div class="col-md-2">
+						<div class="col-md-3">
 						<img src="<?php bloginfo('template_url')?>/img/announcements.jpg" alt="Announcements" class="img-responsive img-rounded thumb">
 					</div>
 					
