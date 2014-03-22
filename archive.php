@@ -13,6 +13,7 @@
 				<div class="col-xs-12">
 					<h2 class="pagetitle">
 						<?php
+						      echo "Dog Blog ";
               				  $term = get_term_by('slug', get_query_var('term'), get_query_var('taxonomy'));
 				              if ($term) {
 				                echo $term->name;
