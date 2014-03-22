@@ -49,13 +49,13 @@
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="/philosophy">Philosophy</a>
+										<a href="/about/philosophy">Philosophy</a>
 									</li>
 									<li>
-										<a href="/team">The Team</a>
+										<a href="/about/team">The Team</a>
 									</li>
 									<li>
-										<a href="employment">Employment</a>
+										<a href="/about/employment">Employment</a>
 									</li>
 								</ul>
 							</li>
@@ -64,16 +64,13 @@
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="/daycare">Day Care</a>
+										<a href="/services/dog-daycare">Day Care</a>
 									</li>
 									<li>
-										<a href="/training">Training</a>
+										<a href="/services/training">Training</a>
 									</li>
 									<li>
-										<a href="/boarding">Boarding</a>
-									</li>
-									<li>
-										<a href="/prices">Prices</a>
+										<a href="/services/prices">Prices</a>
 									</li>
 								</ul>
 							</li>
