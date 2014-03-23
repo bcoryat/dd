@@ -69,9 +69,7 @@
 									<li>
 										<a href="/services/training">Training</a>
 									</li>
-									<li>
-										<a href="/services/prices">Prices</a>
-									</li>
+									
 								</ul>
 							</li>
 							<li>
