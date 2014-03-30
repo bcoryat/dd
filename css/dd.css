@@ -529,8 +529,9 @@ header .navbar .navbar-nav .dropdown ul li a {
 header .navbar .navbar-nav .dropdown ul li.active a { color: #01325a; }
 
 header .navbar .navbar-nav .dropdown ul li a:hover {
-  border-width: inherit;
-  
+ 
+  border-width:thin;
+  border-bottom-color:#01325a;
   /*background: #01325a; */
   color: #01325a;
 }
