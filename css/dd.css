@@ -494,14 +494,23 @@ header .navbar .navbar-nav li a {
   margin: 5px 0 0 0;
   background: none;
 }
+
+/*
 header .navbar .navbar-nav li.active > a {
 	
-	color: #01325a;;
+	color: #01325a;
 }
+*/
 header .navbar .navbar-nav li a:hover {
   color: #01325a;
   border-bottom: 5px solid #01325a;
 }
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+	
+		color: #01325a;
+}
+
 
 header .navbar .navbar-nav li.active>a, header .navbar .navbar-nav li a:hover .caret {
 	 border-bottom-color: #01325a;
@@ -513,6 +522,8 @@ header .navbar .navbar-nav .dropdown.open a  .caret {
 	 border-bottom-color: #01325a;
      border-top-color: #01325a;
 }
+
+
 
 
 header .navbar .navbar-nav .dropdown ul {
