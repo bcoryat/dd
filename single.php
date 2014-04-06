@@ -10,7 +10,7 @@
 		<div class="container">
            
 			
-				<div class="col-md-9">
+				<div class="col-md-11">
 
 					<!-- post -->
 					<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
@@ -34,19 +34,18 @@
 		            </div>
 		           <?php endif; ?>
 					<!-- end Post -->
-
-
-
-
+					<div id="backtoblog">
+						
+                       <a href="/blog">
+                       	<button type="button" class="btn btn-default">
+                          <span class="glyphicon glyphicon-arrow-left"></span> Back to the Dog Blog
+                        </button>
+                       </a>
+                    </div>
+                    
+                    
 				</div>
-		
-				<aside class="col-md-3">
-
-                   <div>the sidebar</div>
-
-				</aside>
-			</div>
-
+				
 		</div>
 	</article>
 
