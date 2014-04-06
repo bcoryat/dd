@@ -16,12 +16,13 @@
 
 /************************* General Styles for Tags *************************/
 a {
-  color: #281c4c; 
+  color:  #281c4c; 
 }
 a:hover {
-  text-decoration: none;
+  text-decoration:none;
   color: #4ec7b8;
 }
+
 a:active,a:focus {
   outline: none;
 }
@@ -105,6 +106,11 @@ p {
   font-size: 0.9em;
   line-height: 1.8em;
   font-family: 'Montserrat', sans-serif;
+}
+
+
+p a:hover {
+   font-weight: bold;
 }
 ul {
   padding: 0;
@@ -193,7 +199,12 @@ strong.highlight {
   text-align: center;
   padding: 40px 20% 0;
 }
-.title .centered {
+
+.pagetitle {
+	margin-bottom : 25px;
+}
+
+.pagetitle .centered {
   position: absolute;
   left: 50%;
   top: -20px;
@@ -726,162 +737,6 @@ aside .recent-news a:hover {
 
 
 
-/********************************* Pricing table *********************************/
-.pricing-tables-main{
-  margin-bottom: 8%;
-  display: block;
-  float: left;
-}
-.pricing-tables-main:last-child {
-  
-}
-.pricing-tables {
-    float: left;
-    position: relative;
-    width: 24%;
-}
-.pricing-tables .title {
-    background-color: #9499af;
-    border-bottom: 1px solid #72778C;
-    color: #FFFFFF;
-    float: left;
-    font-size: 18px;
-    font-weight: normal;
-    padding: 12px 0 10px;
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
-}
-.pricing-tables .price {
-    background-color: #80869B;
-    color: #FFFFFF;
-    float: left;
-    font-size: 40px;
-    font-weight: normal;
-    padding: 30px 0 20px;
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
-}
-.pricing-tables .price i {
-    color: #CCCCCC;
-    display: block;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: normal;
-    margin-top: 18px;
-}
-.pricing-tables .cont-list {
-    background-color: #F9F9F9;
-    border-bottom: 3px solid #FFFFFF;
-    border-top: 3px solid #FFFFFF;
-    color: #727272;
-    float: left;
-    text-align: center;
-    width: 100%;
-}
-.pricing-tables .cont-list ul {
-    margin: 0;
-    padding: 0;
-}
-.pricing-tables .cont-list li {
-    border-bottom: 1px solid #FFFFFF;
-    line-height:1;
-    list-style-type: none;
-    margin: 0;
-    padding: 20px 0;
-}
-.pricing-tables .cont-list li.last {
-    border: medium none;
-}
-.ordernow {
-    background-color: #E3E3E3;
-    color: #FFFFFF;
-    float: left;
-    padding: 7%;
-    text-align: center;
-    width: 100%;
-}
-
-
-/*************** helight ************/
-.pricing-tables-helight {
-    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
-    float: left;
-    position: relative;
-    width: 27%;
-    z-index: 999;
-}
-.pricing-tables-helight .title {
-    background-color: #722881;
-    border-bottom: 1px solid #612170;
-    color: #FFFFFF;
-    float: left;
-    font-size: 18px;
-    font-weight: normal;
-    margin-top: -10px;
-    padding: 19px 0 21px 0;
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
-}
-.pricing-tables-helight .price {
-    background-color: #571966;
-    color: #FFFFFF;
-    float: left;
-    font-size: 45px;
-    font-weight: normal;
-    padding: 34px 0 20px;
-    text-align: center;
-    text-transform: uppercase;
-    width: 100%;
-}
-.pricing-tables-helight .price i {
-    color: #EEEEEE;
-    display: block;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: normal;
-    margin-top: 20px;
-}
-.pricing-tables-helight .cont-list {
-    background-color: #F9F9F9;
-    border-bottom: 3px solid #FFFFFF;
-    border-top: 3px solid #FFFFFF;
-    color: #727272;
-    float: left;
-    text-align: center;
-    width: 100%;
-}
-.pricing-tables-helight .cont-list ul {
-    margin: 0;
-    padding: 0;
-}
-.pricing-tables-helight .cont-list li {
-    border-bottom: 1px solid #FFFFFF;
-    line-height: 1;
-    list-style-type: none;
-    margin: 0;
-    padding: 20px 0;
-}
-
-.pricing-tables-helight .ordernow {
-    background-color: #EEEEEE;
-    color: #FFFFFF;
-    float: left;
-    padding: 12% 6%;
-}
-
-.pricing-tables.three {
-    width: 32%;
-}
-.pricing-tables-helight.middle {
-    width: 36%;
-}
-
-
-
-
 
 
 
@@ -918,7 +773,7 @@ footer .contact #contact_bg {
   min-height: 575px;
 }
 footer .contact .container {
-  padding: 20px 0;
+  padding: 20px 20px;
 }
 footer .bottom-foot {
   color: #c3c3c1;
@@ -988,4 +843,8 @@ footer .bottom-foot a:hover{
 .sectionsp {
   padding-bottom :20px;	
 }
+
+#backtoblog {
+  margin-top: 30px;
 }
+
