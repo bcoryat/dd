@@ -73,7 +73,7 @@
 								</ul>
 							</li>
 							<li>
-								<a href="/puppies">For Puppies</a>
+								<a href="/for-puppies">For Puppies</a>
 							</li>
 							<li>
 								<a href="/testimonials">Testimonials</a>
