@@ -44,7 +44,10 @@
 
 				<?php if ( have_posts() ) : ?>
 				
-				<?php while ( have_posts() ) : the_post(); ?>
+				<?php while ( have_posts() ) : the_post();
+				   $attr = array('class'	=> "thumbnail pull-left");	
+				
+				 ?>
 				
 					<!-- start each post -->
 					<div class="eachpost">
@@ -55,7 +58,7 @@
 						</div>	
 
 						
-							<?php the_post_thumbnail(' thumbnail pull-left'); ?>
+							<?php the_post_thumbnail('medium',$attr); ?>
 						    <?php the_excerpt(); ?>
 
 									<a href="<?php the_permalink();?>" class="btn btn-default">Read More</a>
