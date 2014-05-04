@@ -49,13 +49,13 @@
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="/about/philosophy/">Philosophy</a>
+										<a href="/about/philosophy">Philosophy</a>
 									</li>
 									<li>
-										<a href="/about/team/">The Team</a>
+										<a href="/about/team">The Team</a>
 									</li>
 									<li>
-										<a href="/about/employment/">Employment</a>
+										<a href="/about/employment">Employment</a>
 									</li>
 								</ul>
 							</li>
@@ -64,33 +64,33 @@
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="/services/dog-daycare/">Day Care</a>
+										<a href="/services/dog-daycare">Day Care</a>
 									</li>
 									<li>
-										<a href="/services/training/">Training</a>
+										<a href="/services/training">Training</a>
 									</li>
 									
 								</ul>
 							</li>
 							<li>
-								<a href="/for-puppies/">For Puppies</a>
+								<a href="/for-puppies">For Puppies</a>
 							</li>
 							<li>
-								<a href="/testimonials/">Testimonials</a>
+								<a href="/testimonials">Testimonials</a>
 							</li>
 							<li>
-								<a href="/faqs/">FAQs</a>
+								<a href="/faqs">FAQs</a>
 							</li>
 							<li>
-								<a href="/blog/">Blog</a>
+								<a href="/blog">Blog</a>
 							</li>
-							<div class="navbar-right navbar-contact">
-							    <a id="contactus" class="btn btn-default"  role="button">Contact Us</a>	
-						    </div>
 						</ul>
 
-						
-					</div><!--/.nav-collapse -->
+						<div class="navbar-right navbar-contact">
+							<a id="contactus" class="btn btn-default"  role="button">Contact Us</a>
+							</form>
+						</div><!--/.nav-collapse -->
+					</div>
 			</nav>
 	</header>
 	<!-- end Header -->

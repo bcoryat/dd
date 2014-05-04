@@ -551,11 +551,12 @@ header .navbar .navbar-nav .dropdown.open a {
 
 
 
-
 header .navbar .navbar-contact {
-    margin: 20px 0;
-    padding: 0 0 0 75px;
+  margin: 20px 0;
+  padding: 0 10px 0 0;
+ 
 }
+
 
 
 /************************************ Announcements *********************************/
