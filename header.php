@@ -69,6 +69,9 @@
 									<li>
 										<a href="/services/training">Training</a>
 									</li>
+									<li>
+										<a href="/calendar">Calendar</a>
+									</li>
 									
 								</ul>
 							</li>

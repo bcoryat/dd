@@ -1,7 +1,6 @@
 @charset "utf-8";
 
 
-
 /************************** Import Fonts and Icons *************************/
 
 /* Bree Serif - From Google Fonts */
@@ -27,7 +26,7 @@ a:active,a:focus {
   outline: none;
 }
 article {
-  padding: 60px 0;
+  padding: 40px 0;
 }
 address {
   color: #fff;
@@ -81,7 +80,7 @@ h6 {
 }
 h2 {
   font-size: 1.7em;
-  line-height: 0.7em;
+  /*line-height: 0.7em;*/
   margin: 0 0 20px 0;
   padding: 0;
 }
@@ -90,7 +89,7 @@ h3 {
   padding: 0;
 }
 h4 {
-  text-transform: uppercase;
+  
 }
 img {
  /* width: 100%; */
@@ -115,8 +114,13 @@ p a:hover {
 ul {
   padding: 0;
 }
+
+strong {
+  color: #281c4c;
+}
+
 strong.highlight {
-  background: #722881;
+  background:  #281c4c;
   padding: 0 5px;
   color: #fff;
 }
@@ -242,7 +246,7 @@ strong.highlight {
 	height: 100%;
 	min-height: 600px;
 	 
-	background: transparent url("../../dd/img/hm-main.jpg") no-repeat center center; 
+	background: transparent url("../../dd2/img/hm-main.jpg") no-repeat center center; 
 	background-size: cover;
   	-webkit-background-size: cover;
   	-moz-background-size: cover;
@@ -285,7 +289,7 @@ article .header {
   color: #9499af;
   font-size: 1.3em;
   font-weight: 400;
-  margin-bottom: 30px;
+  padding-bottom: 30px;
 }
 
 
@@ -439,8 +443,6 @@ article .header {
 
 
 
-
-
 /***************************************************************************/
 /************************ General Styles for Header ************************/
 header .row {
@@ -577,6 +579,8 @@ header .navbar .navbar-contact {
 
 .announcements li {
 	font-size: 1.0em;
+	list-style-type: none;
+	padding-top: 15px;
 }
 
 
@@ -633,7 +637,7 @@ header .navbar .navbar-contact {
 
 /*********************************** Posts *********************************/
 .eachpost {
-  margin-bottom: 80px;
+  margin-bottom: 100px;
 }
 .eachpost h2 a:hover {
   color: #2baea6;
@@ -784,7 +788,7 @@ footer .bottom-foot a:hover{
   bottom: 80px;
   right: 30px;
   display: none;
-  background: transparent url("../../dd/img/to-top.png") center center no-repeat;
+  background: transparent url("../img/to-top.png") center center no-repeat;
 }
 
 .scrollup i {
