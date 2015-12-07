@@ -1,13 +1,13 @@
 <!DOCTYPE HTML>
 	<head>
 		<meta charset="utf-8">
-		
+
 		<title><?php wp_title('|', 1, 'right'); ?> <?php bloginfo('name'); ?></title>
-		
+
 		<!-- Responsive Metatag -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-       
-      
+
+
 	    <!-- css -->
 	    	<!--[if IE 7]>
     			<link rel="stylesheet" href="/css/fontello-ie7.css" >
@@ -15,20 +15,20 @@
 
 		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
 			<!--[if lt IE 9]>
-				<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>        
+				<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 			<![endif]-->
 
 		<!-- Media queries -->
 			<!--[if lt IE 9]>
 				<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
 			<![endif]-->
-			 <?php wp_head(); ?> 
+			 <?php wp_head(); ?>
 	</head>
 	<body>
     	<!-- Header -->
    		<header>
 			<nav class="navbar navbar-fixed-top" role="navigation">
-				<div class="container">
+				<div class="container" id="navCont">
 
 					<div class="navbar-header">
 						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -74,13 +74,13 @@
 									<li>
 										<a href="/services/space-rental">Space Rental</a>
 									</li>
-									
+
 								</ul>
 							</li>
 							<li>
 								<a href="/for-puppies">For Puppies</a>
 							</li>
-							
+
 							<li>
 								<a href="/faqs">FAQs</a>
 							</li>
