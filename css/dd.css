@@ -478,7 +478,7 @@ header .navbar .navbar-header .navbar-toggle span {
   background: #fff;
 }
 header .navbar .navbar-nav {
-  padding: 0 0 0 40px;
+  padding: 0 0 0 2vw;
 }
 header .navbar .navbar-nav li a {
   color: #9499af;

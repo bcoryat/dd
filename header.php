@@ -55,6 +55,8 @@
 										<a href="/about/team">The Team</a>
 									</li>
 									<li>
+      								              <a href="/testimonials">Testimonials</a></li>
+									<li>
 										<a href="/about/employment">Employment</a>
 									</li>
 								</ul>
@@ -70,7 +72,7 @@
 										<a href="/services/training">Training</a>
 									</li>
 									<li>
-										<a href="/calendar">Calendar</a>
+										<a href="/services/space-rental">Space Rental</a>
 									</li>
 									
 								</ul>
@@ -78,9 +80,7 @@
 							<li>
 								<a href="/for-puppies">For Puppies</a>
 							</li>
-							<li>
-								<a href="/testimonials">Testimonials</a>
-							</li>
+							
 							<li>
 								<a href="/faqs">FAQs</a>
 							</li>
