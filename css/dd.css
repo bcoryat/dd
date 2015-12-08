@@ -472,10 +472,10 @@ header .navbar .navbar-header .navbar-brand {
   padding: 15px 15px 0 15px;
 }
 header .navbar .navbar-header .navbar-toggle {
-  background: #01325a;
+  background:  #ffffff;
 }
 header .navbar .navbar-header .navbar-toggle span {
-  background: #fff;
+  background: #01325a;
 }
 header .navbar .navbar-nav {
   padding: 0 0 0 2vw;
