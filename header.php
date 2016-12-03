@@ -72,13 +72,13 @@
 										<a href="/services/training">Training</a>
 									</li>
 									<li>
+                                                                                <a href="/services/dog-walks">Dog Walking</a>
+                                                                        </li>
+									<li>
 										<a href="/services/space-rental">Space Rental</a>
 									</li>
 
 								</ul>
-							</li>
-							<li>
-								<a href="/for-puppies">For Puppies</a>
 							</li>
 
 							<li>
