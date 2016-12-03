@@ -31,7 +31,7 @@ function dd_common_styles() {
 	wp_enqueue_style('bootstrap-css', '//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css');
 	wp_enqueue_style('fontello-css', get_template_directory_uri() . '/css/fontello.css');
 	wp_enqueue_style('media-css', get_template_directory_uri() . '/css/media-queries.css', array('bootstrap-css'));
-	wp_enqueue_style('dd-css', get_template_directory_uri() . '/css/dd.css', array('bootstrap-css'));
+	wp_enqueue_style('dd-css', get_template_directory_uri() . '/css/dd.css?v1.1', array('bootstrap-css'));
 
 
 }
