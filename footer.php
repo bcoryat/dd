@@ -36,7 +36,8 @@
 
 				<div class="col-sm-5">	
 					<!-- google map-->
-					<div  id="map-canvas"><img src="http://maps.googleapis.com/maps/api/staticmap?center=center=40.8009898,-73.9472640&zoom=15&size=400x400&maptype=roadmap&markers=color:red%7Clabel:DD%7C40.8009898,-73.9472640&sensor=false"></div>
+					<iframe width="450" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBpa63aUwgyMGmWyAXxbipOhM1qs3JgNf4&q=14+W+116th+St,+New+York,+NY+10026" allowfullscreen>
+</iframe>
 				</div>   
 			 </div>
 
@@ -46,7 +47,7 @@
 	<!-- end Contact -->
 
 	<div class="bottom-foot">
-		<p>&copy; 2014 Doggedly Devoted. All rights reserved.</p>
+		<p>&copy; 2016 Doggedly Devoted. All rights reserved.</p>
 	</div>
 
 </footer>   
