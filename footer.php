@@ -22,14 +22,13 @@
 				<div class="col-sm-7">
 					<address>
 					<i class="icon-home"></i> 1400 Fifth Avenue, New York, NY 10026 (entrance on 116th Street)<br>
-					<i class="icon-phone"></i> Phone:  212 426 7232<br />
-					<i class="icon-mail"></i> Email:  <a href="mailto:info@doggedlydevoted.com">info@doggedlydevoted.com</a><br />
-					<i class="icon-facebook"></i> Facebook:  <a href="https://www.facebook.com/doggedlydevoted">facebook.com/DoggedlyDevoted</a><br />
-					<i class="icon-twitter"></i> Twitter:  <a href="https://twitter.com/DoggedlyDevoted">twitter.com/DoggedlyDevoted</a><br />
+					<i class="icon-phone"></i> 212 426 7232<br />
+					<i class="icon-mail"></i> <a href="mailto:info@doggedlydevoted.com">info@doggedlydevoted.com</a><br />
+					<i class="icon-facebook"></i> <a href="https://www.facebook.com/doggedlydevoted">facebook.com/DoggedlyDevoted</a><br />
+					<i class="icon-twitter"></i> <a href="https://twitter.com/DoggedlyDevoted">twitter.com/DoggedlyDevoted</a><br />
 					</address>
 
 
-					 <a href="http://www.doggedlydevoted.com/newclientform/" class="btn btn-default" id="iwantdaycare" role="button">I Want Daycare !</a>
 				</div> 
 
 
@@ -47,7 +46,7 @@
 	<!-- end Contact -->
 
 	<div class="bottom-foot">
-		<p>&copy; 2016 Doggedly Devoted. All rights reserved.</p>
+		<p>&copy; 2017 Doggedly Devoted. All rights reserved.</p>
 	</div>
 
 </footer>   
