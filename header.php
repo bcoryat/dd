@@ -86,17 +86,11 @@ src="https://www.facebook.com/tr?id=1699855016895475&ev=PageView
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
 								<ul class="dropdown-menu">
 									<li>
-										<a href="/services/dog-daycare">Day Care</a>
-									</li>
-									<li>
 										<a href="/services/training">Training</a>
 									</li>
 									<li>
                                                                                 <a href="/services/dog-walks">Dog Walking</a>
                                                                         </li>
-									<li>
-										<a href="/services/space-rental">Space Rental</a>
-									</li>
 
 								</ul>
 							</li>
