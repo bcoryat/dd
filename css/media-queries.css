@@ -4,9 +4,7 @@
 /*	Mobile Version 320px
 /* ---------------------------------------------------------------------- */
 @media handheld, only screen and (max-width: 768px) {
-  .bannercontainer {
-    display: none;
-  }
+ 
     .navbar-nav .open .dropdown-menu {
   	width :50%;
   }

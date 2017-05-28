@@ -96,9 +96,6 @@ src="https://www.facebook.com/tr?id=1699855016895475&ev=PageView
 							</li>
 
 							<li>
-								<a href="/faqs">FAQs</a>
-							</li>
-							<li>
 								<a href="/blog">Blog</a>
 							</li>
 						</ul>

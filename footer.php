@@ -9,35 +9,26 @@
 	<div id="contact_bg">
 		<div class="container">
 			 
+			
+
 			<div class="row">
 			<div class="col-sm-12">
-				
-				<div class="title">
-					<div class="centered"><div><h2>Contact Us</h2></div></div>
-				</div>
-			</div>
-			</div>
-
-			<div class="row">
-				<div class="col-sm-7">
+				    
 					<address>
-					<i class="icon-home"></i> 1400 Fifth Avenue, New York, NY 10026 (entrance on 116th Street)<br>
-					<i class="icon-phone"></i> 212 426 7232<br />
+					<h2>Contact Us</h2>
+					<i class="icon-phone"></i><a href="tel:+12124267232">212 426 7232</a><br />
 					<i class="icon-mail"></i> <a href="mailto:info@doggedlydevoted.com">info@doggedlydevoted.com</a><br />
 					<i class="icon-facebook"></i> <a href="https://www.facebook.com/doggedlydevoted">facebook.com/DoggedlyDevoted</a><br />
+					<i class="icon-instagram"></i> <a href="https://www.instagram.com/doggedlydevoted">instagram.com/DoggedlyDevoted</a><br />
 					<i class="icon-twitter"></i> <a href="https://twitter.com/DoggedlyDevoted">twitter.com/DoggedlyDevoted</a><br />
 					</address>
+             </div>
+
+			</div> 
 
 
-				</div> 
 
-
-
-				<div class="col-sm-5">	
-					<!-- google map-->
-					<iframe width="450" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBpa63aUwgyMGmWyAXxbipOhM1qs3JgNf4&q=14+W+116th+St,+New+York,+NY+10026" allowfullscreen>
-</iframe>
-				</div>   
+			
 			 </div>
 
 		 </div>

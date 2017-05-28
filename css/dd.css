@@ -33,6 +33,10 @@ address {
   line-height: 2em;
   padding: 0 0 10px 0;
 }
+address h2 {
+  color: #fff;
+  margin-top: 20px;
+}
 address a {
   color: #4ec7b8;
 }
