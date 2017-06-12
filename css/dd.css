@@ -734,7 +734,7 @@ footer {
   margin-top: 70px;
 }
 footer .contact {
-  min-height: 575px;
+
   padding: 0;
   color: #fff;
   overflow: hidden;
@@ -759,7 +759,6 @@ footer .contact #map {
 footer .contact #contact_bg {
   background: rgba(0,0,0,0.7);
   width: 100%;
-  min-height: 575px;
 }
 footer .contact .container {
   padding: 20px 20px;
@@ -838,4 +837,8 @@ footer .bottom-foot a:hover{
 .dogblogteaser {
 
   padding-bottom: 20px;
+}
+
+#front-description {
+  font-size: 32px;
 }
