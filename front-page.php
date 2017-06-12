@@ -1,22 +1,14 @@
 <?php get_header(); ?>
 
-
+	<div class="container-full-bg" style="background-image:url('/wp-content/themes/dd2/img/hm2.jpg');">
+			 	<div class="container special">
+			 		<div class="jumbotron"></div>
+  				</div>
+			</div>
 <div id="content">
 	<section id="home">
 		
-		<!-- Jumbotron image -->
-		<article class="bannercontainer">
-			<div id="hm-main">
-				
-						<!-- <div id="hm-banner">
-							<p>
-								<span>Join the fun!</span>
-								Daycare<i class="icon-star"></i>Training<i class="icon-star"></i>Socials	
-							</p>		
-						 </div>	-->															
-			</div>
-		</article>
-		<!-- End Jumbotron image -->
+	
 
 		<!-- DD description -->
 		<article class="dddesc">
