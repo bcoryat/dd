@@ -11,7 +11,7 @@
                     <div class="col-sm-9">
                             <address>
                             <h2>Contact Us</h2>
-                            <i class="icon-phone"></i><a href="tel:+12124267232">212 426 7232</a><br />
+                            <i class="icon-phone"></i><a href="tel:+16466708639">646 670 8639</a><br />
                             <i class="icon-mail"></i> <a href="mailto:info@doggedlydevoted.com">info@doggedlydevoted.com</a><br />
                             <i class="icon-facebook"></i> <a href="https://www.facebook.com/doggedlydevoted">facebook.com/DoggedlyDevoted</a><br />
                             <i class="icon-instagram"></i> <a href="https://www.instagram.com/doggedlydevoted">instagram.com/DoggedlyDevoted</a><br />
@@ -30,7 +30,7 @@
     <!-- end Contact -->
 
     <div class="bottom-foot">
-        <p>&copy; 2017 Doggedly Devoted. All rights reserved.</p>
+        <p>&copy; 2018 Doggedly Devoted. All rights reserved.</p>
     </div>
 
 </footer>   
