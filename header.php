@@ -65,22 +65,10 @@ src="https://www.facebook.com/tr?id=1699855016895475&ev=PageView
 							<li>
 								<a href="/">Home</a>
 							</li>
-							<li class="dropdown ">
-								<a href="#" class="dropdown-toggle" data-toggle="dropdown">About<span class="caret"></span></a>
-								<ul class="dropdown-menu">
-									<li>
-										<a href="/about/philosophy">Philosophy</a>
-									</li>
-									<li>
-										<a href="/about/team">The Team</a>
-									</li>
-									<li>
-      								              <a href="/testimonials">Testimonials</a></li>
-									<li>
-										<a href="/about/employment">Employment</a>
-									</li>
-								</ul>
+							<li>
+								<a href="/meet-the-trainer">Meet the Trainer</a>
 							</li>
+
 
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<span class="caret"></span></a>
@@ -89,8 +77,8 @@ src="https://www.facebook.com/tr?id=1699855016895475&ev=PageView
 										<a href="/services/training">Training</a>
 									</li>
 									<li>
-                                                                                <a href="/services/dog-walks">Dog Walking</a>
-                                                                        </li>
+                                        <a href="/services/dog-walks">Dog Walking</a>
+                                    </li>
 
 								</ul>
 							</li>
