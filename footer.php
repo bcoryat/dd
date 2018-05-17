@@ -19,7 +19,7 @@
                             </address>
                      </div>
                      <div class="col-sm-3">
-                         <p align="left"><b>Powered By </b></p><a href="http://www.petsitter-software.com/" target="_blank" rel="nofollow"><img src="https://static-petsoftware-net.s3.amazonaws.com/petsitterplus/logo.png" width="180" height="51" align="left" /></a></p>
+                         <p align="left"><b>Powered By </b></p><a href="https://www.petsitter-plus.com" target="_blank" rel="nofollow"><img src="https://static-petsoftware-net.s3.amazonaws.com/petsitterplus/logo.png" width="180" height="51" align="left" /></a></p>
                      </div>
 
                 </div> 
