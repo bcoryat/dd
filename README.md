@@ -1,4 +1,4 @@
 dd
 ==
 
- source for the new doggedly devoted
+ source for WP doggedly devoted
